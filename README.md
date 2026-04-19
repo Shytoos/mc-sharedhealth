@@ -1,33 +1,33 @@
 # SharedHealth
 
-Plugin Paper (Minecraft Java 1.21.11) qui transforme la partie en mode **vie/faim partagees**.
+Plugin Paper (Minecraft Java 1.21.11) qui transforme la partie en mode **vie/faim partagées**.
 
-## Compatibilite
+## Compatibilité
 
-- Paper 1.21.x (teste pour 1.21.11)
+- Paper 1.21.x (testé pour 1.21.11)
 - Java 21
 
 ## Installation
 
-1. Compiler le plugin (voir section Build) ou recuperer le `.jar` deja compile.
+1. Compiler le plugin (voir section Build) ou récuperer le `.jar` déjà compilé.
 2. Copier le fichier `.jar` dans le dossier `plugins/` de ton serveur Paper.
-3. Demarrer (ou redemarrer) le serveur.
+3. Démarrer (ou redémarrer) le serveur.
 
-## Utilisation (regles du mode)
+## Utilisation (règles du mode)
 
 Le plugin ne propose **aucune commande** : tout est automatique.
 
-- Les PV sont partages entre tous les joueurs connectes.
-- La faim (food bar) est partagee.
-- Les effets Regeneration, Bonus de sante et Absorption sont synchronises.
-- La regeneration est geree pour eviter les cumuls abusifs (pas de stack multi-joueurs).
+- Les PV sont partagés entre tous les joueurs connectés.
+- La faim (food bar) est partagée.
+- Les effets Régénération, Bonus de santé et Absorption sont synchronisés.
+- La régénération est gérée pour éviter les cumuls abusifs (pas de stack multi-joueurs).
 - Si un joueur meurt, tout le groupe meurt.
-- A la mort partagee :
-  - inventaires vides (armure incluse),
-  - coffres de l'End vides,
-  - drops de mort vides,
-  - objets au sol supprimes.
-- Si un joueur etait hors ligne pendant une mort partagee, a sa reconnexion il est resynchronise au meme etat de progression (inventaire/coffre de l'End nettoyes).
+- À la mort partagée :
+  - inventaires vidés (armure incluse),
+  - coffres de l'End vidés,
+  - drops de mort vidés,
+  - objets au sol supprimés.
+- Si un joueur était hors ligne pendant une mort partagée, à sa reconnexion il est resynchronisé au même état de progression (inventaire/coffre de l'End nettoyés).
 
 ## Build local
 
@@ -35,11 +35,11 @@ Le plugin ne propose **aucune commande** : tout est automatique.
 mvn -DskipTests clean package
 ```
 
-Le jar est genere dans `target/`, par exemple :
+Le jar est généré dans `target/`, par exemple :
 
 - `sharedhealth-1.1.0.jar`
 
-## Donnees persistees
+## Données persistées
 
 Le plugin enregistre sa progression dans :
 
