@@ -9,7 +9,7 @@ Plugin Paper (Minecraft Java 1.21.11) qui transforme la partie en mode **vie/fai
 
 ## Installation
 
-1. Compiler le plugin (voir section Build) ou récuperer le `.jar` déjà compilé.
+1. Compiler le plugin (voir section Build) ou récuperer le `.jar` déjà compilé [ici](https://github.com/Shytoos/mc-sharedhealth/releases).
 2. Copier le fichier `.jar` dans le dossier `plugins/` de ton serveur Paper.
 3. Démarrer (ou redémarrer) le serveur.
 
